@@ -133,19 +133,19 @@ begin
            ('black hole', 'massive damage', '-500');
 
 
-    call userRegistration('phill', '1234', 'phill@email.com');
+    call pilotRegistration('phill', '1234', 'phill@email.com');
 
-    call userRegistration('stu', '1234', 'stu@email.com');
+    call pilotRegistration('stu', '1234', 'stu@email.com');
 
-    call userRegistration('jeebus', '1234', 'jeebus@email.com');
+    call pilotRegistration('jeebus', '1234', 'jeebus@email.com');
 
-    call userRegistration('alex', '1234', 'alex@email.com');
+    call pilotRegistration('alex', '1234', 'alex@email.com');
 
-    call userRegistration('tina', '1234', 'tina@email.com');
+    call pilotRegistration('tina', '1234', 'tina@email.com');
 
-    call userRegistration('cpt nope', '1234', 'nope@email.com');
+    call pilotRegistration('cpt nope', '1234', 'nope@email.com');
 
-    call userRegistration('god', '1234', 'god@email.com');
+    call pilotRegistration('god', '1234', 'god@email.com');
 
 
 -- test data modify user
@@ -253,11 +253,11 @@ end//
 
 delimiter ;
 
-drop procedure if exists userRegistration;
+drop procedure if exists pilotRegistration;
 
 delimiter //
 
-create procedure userRegistration(
+create procedure pilotRegistration(
     in pPilotName varchar(30),
     in pPilotPassword varchar(20),
     pEmail varchar(50)

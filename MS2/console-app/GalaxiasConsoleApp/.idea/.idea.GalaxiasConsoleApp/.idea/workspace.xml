@@ -5,64 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc3aa8a-ed15-4cc0-861d-0f0277ff794f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Galaxias@localhostERD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project proposal.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/DataAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/Inventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/Pilot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/BouncyCastle.Crypto.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/GalaxiasConsoleApp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/GalaxiasConsoleApp.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/GalaxiasConsoleApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/GalaxiasConsoleApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/GalaxiasConsoleApp.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/Google.Protobuf.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/K4os.Compression.LZ4.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/K4os.Hash.xxHash.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/MySql.Data.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/Ubiety.Dns.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/ZstdNet.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/ref/GalaxiasConsoleApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/GalaxiasConsoleApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/Debug/net6.0/ref/GalaxiasConsoleApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/GalaxiasConsoleApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/GalaxiasConsoleApp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/GalaxiasConsoleApp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GalaxiasConsoleApp/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../galaxiasMS2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_src_/schema/Galaxias.UlOKmA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_src_/schema/Galaxias.UlOKmA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_staging_/schema/Galaxias.UlOKmA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_staging_/schema/Galaxias.UlOKmA/routine/userRegistration.n_TaQg.base.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_staging_/schema/Galaxias.UlOKmA/routine/userRegistration.n_TaQg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/7a86efbc-df20-4ae3-853f-6bd11ee9f1cb/storage_v2/_staging_/schema/Galaxias.UlOKmA/routine/userRegistration.n_TaQg.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/d9466982-07ce-4dcf-b78d-bd5b3326b166.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/dataSources/d9466982-07ce-4dcf-b78d-bd5b3326b166.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GalaxiasConsoleApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../galaxiasMS2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../galaxiasMS2.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +90,7 @@
       <workItem from="1653348011360" duration="1233000" />
       <workItem from="1653358203302" duration="2107000" />
       <workItem from="1653430904975" duration="1009000" />
+      <workItem from="1653435182707" duration="294000" />
     </task>
     <servers />
   </component>
