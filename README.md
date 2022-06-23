@@ -6,3 +6,4 @@
 
 [milestone two report and code](https://github.com/Phillip-D-Shields/dat602-project/tree/main/MS2)
 
+[milestone three report and code](https://github.com/Phillip-D-Shields/dat602-project/tree/main/MS3)
