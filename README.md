@@ -1,3 +1,5 @@
+a live demo of the MS3 project Galaxias 2.0 can be found [here](https://genuine-snickerdoodle-fac39d.netlify.app/)
+
 # dat602-project
  
 [milestone reviews](https://github.com/Phillip-D-Shields/dat602-project/tree/main/Reviews)
