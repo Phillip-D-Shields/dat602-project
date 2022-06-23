@@ -1,0 +1,248 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(36, 33, 33);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .game-container { 
+    position: relative;
+    width: 320px;
+    height: 256px;
+    background: url("https://i.pinimg.com/originals/43/e9/16/43e9164cfe2537bb9d6746b4d053d032.gif") no-repeat no-repeat;
+    background-size: cover;
+    background-position: right;
+    transform: scale(2);
+    image-rendering: pixelated;
+    border: 2px solid rgb(37, 55, 73);
+    box-shadow: .25rem .25rem .25rem black;
+  }
+  
+  .high-score-display {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .player-info {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding: 1em;
+    display: flex;
+    gap: 0.5em;
+    align-items: flex-end
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: white;
+  }
+  
+  input[type="text"],
+  button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    height: 44px;
+    border-radius: 4px;
+    outline: 0;
+  }
+  
+  input[type="text"] {
+    outline: 0;
+    padding-left: 0.5em;
+    border: 3px solid #222034;
+    width: 150px;
+    text-transform: uppercase;
+  }
+  input[type="text"]:focus {
+    border-color: #f000ff;
+  }
+  
+  button {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: #59ff5a;
+    border: 0;
+    border-bottom: 2px solid #1e830b;
+    cursor: pointer;
+  }
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  /* Characters */
+  .grid-cell {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  .Character {
+    transition: transform 0.4s;
+  }
+  .Character.you {
+    z-index: 1;
+  }
+  .Character.you .Character_you-arrow {
+    display: block;
+  }
+  .Character_you-arrow {
+    display: none;
+    position: absolute;
+    top:-18px;
+    left: 5px;
+    width: 7px;
+    height: 5px;
+    background: url(/images/arrow.png) no-repeat no-repeat;
+  }
+ .Character_sprite {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .Character[data-color="beige"] .Character_sprite {
+    background-image: url(/images/shipBeige_manned.png);
+  }
+  .Character[data-color="blue"] .Character_sprite {
+    background-image: url(/images/shipBlue_manned.png);
+  }
+  .Character[data-color="green"] .Character_sprite {
+    background-image: url(/images/shipGreen_manned.png);
+  }
+  .Character[data-color="pink"] .Character_sprite {
+    background-image: url(/images/shipPink_manned.png);
+  }
+  .Character[data-color="yellow"] .Character_sprite {
+    background-image: url(/images/shipYellow_manned.png);
+  }
+
+  .Character_shadow {
+    background: url(/images/shadow.png) no-repeat no-repeat;
+  }
+  .Character_name-container {
+    position: absolute;
+    top: -12px;
+    left: -5px;
+    font-size: 5px;
+    padding: 1px 2px 1px;
+    border-radius: 3px;
+    background: #333;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .Character_stars {
+    margin-left: 1px;
+    color: gold;
+  }
+  
+  /* stars */
+  .star_sprite01 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserBlue08.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 0.5s linear infinite alternate-reverse;
+  }
+  .star_sprite02 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserBlue09.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 0.9s linear infinite alternate-reverse;
+  }
+  .star_sprite03 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserBlue10.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 1s linear infinite alternate-reverse;
+  }
+  .star_sprite04 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserBlue11.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 0.5s linear infinite alternate-reverse;
+  }
+  .star_sprite05 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserRed09.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 0.9s linear infinite alternate-reverse;
+  }
+  .star_sprite06 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserRed10.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 1s linear infinite alternate-reverse;
+  }
+  .star_sprite07 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserRed08.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 0.5s linear infinite alternate-reverse;
+  }
+  .star_sprite08 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserRed11.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 0.9s linear infinite alternate-reverse;
+  }
+  .star_sprite09 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserGreen16.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 1s linear infinite alternate-reverse;
+  }
+  .star_sprite10 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserGreen15.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 1s linear infinite alternate-reverse;
+  }
+  .star_sprite11 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserGreen14.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 1s linear infinite alternate-reverse;
+  }
+  .star_sprite12 {
+    height: 10px;
+    width: 10px;
+    background: url(/images/laserGreen01.png) no-repeat no-repeat;
+    background-size: contain;
+    animation: starFloat 1s linear infinite alternate-reverse;
+  }
+
+  @keyframes starFloat {
+    from { transform: translateY(0) }
+    to { transform: translateY(3px) }
+  }
